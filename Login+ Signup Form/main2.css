@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+	box-sizing: border-box;
+}
+body, html {
+  background-color:#31888a; }
+a {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	 text-decoration: none;}
+
+p {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+
+input, input:hover {
+	border: none;}
+
+.forgotpassword{margin-left: 5px; color: rgb(70, 70, 214); padding-top:10px}
+.noaccountparagraph{margin-left: 5px; padding-left: 100px;}
+.signuplink{margin-left: 5px; color: rgb(70, 70, 214);}
+
+.passwordtoggleeyeforsignup{position: absolute; top: 341px; left: 936px;}
+
+button {
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+
+
+
+.signupcontainer { /*The outer part of the container*/
+  
+  padding: 10px 482px; 
+}
+
+
+.signupshape { /*Shaping the container */
+  width: 510px;
+  height: 659px;
+  background: #fff; padding-top: 30px; padding-left: 30px; padding-right: 30px;
+  border-radius: 10px;
+  
+}
+
+
+.signupform { /*Everything inside the <form> tag*/
+  width: 100%;
+  display: flex; flex-wrap: wrap;
+}
+
+.signupformtitle {  /* "Login" text */
+  font-family: "Poppins", sans-serif; width: 100%;
+  font-size: 39px;
+  color: #555555; padding-bottom: 53px;
+  
+  text-align: center;}
+
+
+.facebookbutton,
+.googlebutton {
+  font-family: "Poppins", sans-serif;
+  font-size: 15.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 450px;
+  height: 53px;
+  border-radius: 10px;
+}
+
+
+.facebookbutton {
+  color: #fff;
+  background-color: #3b5998; margin-top: 20px;}
+
+.fa-eye:hover{
+  cursor: pointer;}
+
+.facebookbutton img {
+  font-size: 10px; 
+  margin-right: 15.5px;}
+
+
+.googlebutton {
+  color: #555555;
+  background-color: rgb(249, 235, 235); margin-top: 20px;
+}
+
+.googlebutton img {
+  width: 30px;
+  margin-right: 15px;
+  padding-bottom: 3px;
+}
+.inputwrap-email{ /*Color inside the input fields*/
+  width: 100%; 
+  background-color: lightgray;
+  
+ 
+}
+
+
+
+.inputwrap-password { /*Color inside the input fields*/
+  width: 100%; 
+  background-color: lightgray;
+  margin-top: 20px;
+ 
+}
+
+
+.signupinputtext { /*The text inside the input fields*/
+  font-family: "Poppins", sans-serif;
+ 
+  line-height: 1.2;
+  font-size: 18px;
+  width: 100%;
+  background: transparent;
+  height: 60px; padding-left: 15.5px;
+}
+
+
+
+
+.signupformbutton{ /* The "Login" button */
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #333333;
+  border-radius: 10px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;}

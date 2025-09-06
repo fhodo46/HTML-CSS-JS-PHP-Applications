@@ -1,0 +1,12 @@
+*{
+    font-family: 'Trebuchet MS';
+}
+
+button{
+    width: 59px; height: 30px; background-color:bisque; color:rgb(86, 86, 80);
+}
+
+
+.firstparagraph{
+    text-decoration: underline;
+}
