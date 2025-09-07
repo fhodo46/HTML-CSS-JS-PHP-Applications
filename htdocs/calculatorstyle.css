@@ -1,0 +1,12 @@
+*{
+    font-family: Arial;
+}
+
+button{
+    color: white;
+    background-color:rgb(162, 216, 216); width: 72px; height: 59px;
+}
+
+.firstinput, .secondinput{
+    width: 300px;
+}
