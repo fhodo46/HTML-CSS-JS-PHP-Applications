@@ -1,0 +1,64 @@
+<?php
+session_start();
+if(isset($_SESSION['loggedinaccount'])){ 
+ header('location: profile.php');
+}
+?>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	
+	<div>
+		<div class="logincontainer">
+			<div class="loginshape">
+				<form class="loginform" action="authenticate.php" method="post">
+					
+					<span class="loginformtitle">
+						Login
+					</span>
+					
+					<div class="inputwrap-email">
+						<input class="logininputtext" type="email" name="email" placeholder="Email" >
+						
+					</div>
+					
+					<div class="inputwrap-password">
+						<input class="logininputtext" type="password" name="password" placeholder="Password" id="passwordfield"> 
+					</div>
+
+					<a href="https://support.google.com/mail/answer/41078?hl=en&co=GENIE.Platform%3DDesktop" class="forgotpassword">
+						Forgot password?
+					</a>
+					
+						<button type="submit" class="loginformbutton">
+							Login
+						</button>
+
+					<p class="noaccountparagraph">
+						Don't have an account? <a href="register.php" class="signuplink"> Signup </a> or
+					</p>
+					<br>
+					
+					<a href="https://web.facebook.com/?_rdc=1&_rdr#" class="facebookbutton">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Facebook_circle_pictogram.svg/2048px-Facebook_circle_pictogram.svg.png" alt="FACEBOOK" width="30" height="30">
+						Login with Facebook
+					</a>
+
+					<a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgoogle%2Blogin%26rlz%3D1C1KNTJ_en%26oq%3Dgoogle%2Blogi%26pf%3Dcs%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAZAAQ&hl=en&ifkv=AdBytiN3Hcq9YTOP1u9STnII6yKI5qgL-Kold74QPIPn8NIRWXK5mjzfclim0nTkr6znoC4rufu3KQ&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-754734413%3A1748657174320673" class="googlebutton">
+						<img src="icon-google.png" alt="GOOGLE">
+						Login with Google
+					</a>
+				
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+
+</html>
